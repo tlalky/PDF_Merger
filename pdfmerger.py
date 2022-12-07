@@ -12,11 +12,11 @@ def print_usage():  # print usage if invalid option is provided
         Without any option provided, given ( or all ) PDFs will be only merged.
 
         Options:
-        -e, --encrypt   encrypt saved PDF file with given password
-        -d, --decrypt   decrypt PDF file with provided password
+        -e,     encrypt saved PDF file with given password
+        -d,     decrypt PDF file with provided password
 
         Help option:
-        -h,--help   show this message''')
+        -h,--help   display this message''')
 
 
 def all_files(saved_name):  # merge all files in directory
